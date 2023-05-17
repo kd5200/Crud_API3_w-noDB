@@ -46,9 +46,11 @@ export const deleteUser = (req,res) => {
     res.send(`User with the id ${id} has been deleted from our records :/`);
 }
 
+
+//
 export const updateUser = (req,res) => {
-    const { id } = req.params;
-    const { firstName, lastName,age, company } = req.body;
+    const { id } = req.params; //capture users ID first
+    const { firstName, lastName,age, company } = req.body; //Capture users body which in this case includes first & last name, age, & company they work for. 
 
     const user = users.find((user) => user.id === id)
 
