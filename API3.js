@@ -2,7 +2,7 @@ import express from "express";
 import bodyParser from 'body-parser';
 import usersRoutes from './routes/user.js';
 
-
+// In progress
 const app = express();
 const PORT = 7000;
 
