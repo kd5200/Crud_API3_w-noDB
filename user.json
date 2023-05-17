@@ -1,0 +1,15 @@
+[
+    {
+        "firstname": "Henry",
+        "lastname": "Ford",
+        "age": "45", 
+        "Company": "Ford"
+    },
+    
+    {
+        "firstname": "Elon",
+        "lastname": "Musk",
+        "age": "48", 
+        "Company": "Tesla"
+    }
+]
